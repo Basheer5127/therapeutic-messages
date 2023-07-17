@@ -110,7 +110,7 @@ const Main = () => {
 const Suspense = () => {
   const [text] = useTypewriter({
     words: ["1...", "2...", "Ready???", "Scroll!!!🎊🎊"],
-    loop: 1,
+    loop: 0,
     typeSpeed: 80,
     deleteSpeed: 50,
   });
