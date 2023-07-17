@@ -117,19 +117,19 @@ const Pictures = () => {
           src={maryamTwo}
           alt="Beautiful girl"
           className="md:w-[50%] rounded-lg"
-          initial={{ y: "30%", opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
+          initial={{ y: "30%", opacity: 0, scale: 0.5 }}
+          whileInView={{ y: 0, opacity: 1, scale: 1 }}
           viewport={{ amount: 0.3, once: true }}
-          transition={{ duration: 1, ease: "easeOut" }}
+          transition={{ duration: 2.5, ease: "easeOut" }}
         />
         <motion.img
           src={maryam}
           alt="Beautiful girl"
           className="md:w-[50%] rounded-lg"
-          initial={{ y: "30%", opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
+          initial={{ y: "30%", opacity: 0, scale: 0.5 }}
+          whileInView={{ y: 0, opacity: 1, scale: 1 }}
           viewport={{ amount: 0.3, once: true }}
-          transition={{ duration: 1, ease: "easeOut" }}
+          transition={{ duration: 2.5, ease: "easeOut" }}
         />
       </div>
     </section>
@@ -139,13 +139,25 @@ const Pictures = () => {
 const Footer = () => {
   return (
     <section className="h-screen bg-[#B2ACE2] py-10 px-2 flex flex-col items-center justify-center">
-      <p className="text-2xl md:text-5xl md:text-center mb-10">
+      <motion.p
+        className="text-2xl md:text-5xl md:text-center mb-10"
+        initial={{ y: "100vh", opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        viewport={{ amount: 0.5, once: true }}
+        transition={{ duration: 1, delay: 2 }}
+      >
         I really hope that made you smile😙, baby?
-      </p>
-      <p className="text-2xl md:text-5xl md:text-center">
+      </motion.p>
+      <motion.p
+        className="text-2xl md:text-5xl md:text-center"
+        initial={{ y: "100vh", opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        viewport={{ amount: 0.5, once: true }}
+        transition={{ duration: 1, delay: 2 }}
+      >
         I hope the universe once again conspires in your favor and you have a
         day just as lovely as you❤️.
-      </p>
+      </motion.p>
     </section>
   );
 };
