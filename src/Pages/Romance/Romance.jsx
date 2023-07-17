@@ -9,6 +9,15 @@ const Romance = () => {
     <div className="font-medium">
       <Header />
       <Main />
+      <section className="bg-[#96897B] h-screen flex flex-col justify-center items-center text-5xl">
+        1..
+      </section>
+      <section className="bg-[#904C77] h-screen flex flex-col justify-center items-center text-5xl">
+        2..
+      </section>
+      <section className="bg-[#ECCFC3] h-screen flex flex-col justify-center items-center text-5xl">
+        Go..🎊
+      </section>
       <Pictures />
       <Footer />
     </div>
@@ -22,7 +31,7 @@ const Header = () => {
   const [showScroll, setShowScroll] = useState(false);
   const [text] = useTypewriter({
     words: [
-      `May the morning breeze refresh your mind and cleanse your exhausted soul so you can fill them once again with new hope, dreams, and desires! Good morning my love❤️`,
+      `I can’t believe I’m still falling for you😔. This feeling has no boundaries. You’re giving me so much without even knowing. I love you more than anything in the world. Good morning Olaide❤️`,
     ],
     loop: 1,
     typeSpeed: 70,
@@ -51,7 +60,7 @@ const Header = () => {
         initial="initial"
         animate="animate"
       >
-        Keep scrolling...
+        Keep scrolling baby...
       </motion.p>
     </section>
   );
@@ -89,10 +98,10 @@ const Main = () => {
         brighten up your day?🤔
       </motion.p>
       <motion.p
-        className="text-2xl md:text-5xl md:text-center p-3 mt-[100px] shadow1 rounded-lg"
+        className="text-2xl md:text-5xl md:text-center p-3 mt-[100px] shadow1 rounded-lg text-white bg-[#B82929]"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
-        transition={{ duration: 1, type: "spring" }}
+        transition={{ duration: 1, delay: 3 }}
       >
         Ready??
       </motion.p>
