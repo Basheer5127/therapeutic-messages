@@ -9,7 +9,7 @@ const Romance = () => {
     <div className="font-medium">
       <Header />
       <Main />
-      <section className="bg-[#96897B] h-screen flex flex-col justify-center items-center text-5xl">
+      {/* <section className="bg-[#96897B] h-screen flex flex-col justify-center items-center text-5xl">
         1..
       </section>
       <section className="bg-[#904C77] h-screen flex flex-col justify-center items-center text-5xl">
@@ -17,7 +17,8 @@ const Romance = () => {
       </section>
       <section className="bg-[#ECCFC3] h-screen flex flex-col justify-center items-center text-5xl">
         Go..🎊
-      </section>
+      </section> */}
+      <Suspense />
       <Pictures />
       <Footer />
     </div>
@@ -50,9 +51,6 @@ const Header = () => {
     <section className="header h-screen bg-[#E6ACCC] pt-5 px-2 flex flex-col items-center justify-center">
       <div>
         <h2 className="text-2xl md:text-5xl md:text-center">{text}</h2>
-        <span className="text-2xl md:text-5xl">
-          <Cursor cursorStyle="|" cursorColor="red" />
-        </span>
       </div>
       <motion.p
         className="mt-40"
@@ -109,6 +107,19 @@ const Main = () => {
   );
 };
 
+const Suspense = () => {
+  const [text] = useTypewriter({
+    words: ["1...", "2...", "Ready???", "Scroll!!!🎊🎊"],
+    loop: 1,
+    typeSpeed: 80,
+    deleteSpeed: 50,
+  });
+  return (
+    <section className="bg-[#ECCFC3] h-screen flex flex-col justify-center items-center text-5xl">
+      {text}
+    </section>
+  );
+};
 const Pictures = () => {
   return (
     <section className="bg-[#BEEF9E] py-10 ">
