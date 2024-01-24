@@ -7,6 +7,7 @@
   body {
     font-family: "Source Code Pro", monospace;
     overflow-x: hidden;
+    color: #fff;
   }
   html {
     overflow-x: hidden;
