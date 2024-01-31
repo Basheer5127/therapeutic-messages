@@ -1,14 +1,79 @@
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import { useTypewriter } from "react-simple-typewriter";
-import { motion } from "framer-motion";
-import maryam from "../../assets/Maryam.jpeg";
-import maryamTwo from "../../assets/Maryam2.jpeg";
+import { AnimatePresence, motion } from "framer-motion";
 import salmahOne from "../../assets/salmah1.jpeg";
 import salmahTwo from "../../assets/salmah2.jpeg";
 const Romance = () => {
+  const parentVariant = {
+    initial: { y: "-100vh" },
+    animate: {
+      y: 0,
+      transition: {
+        type: "tween",
+        // when: "beforeChildren",
+        // duration: 0.8,
+        // staggerChildren: 0.02,
+        // delayChildren: 5,
+      },
+    },
+  };
+  const childVariant = {
+    initial: { x: "100vw" },
+    animate: { x: 0 },
+  };
+  const [navOpen, setNavOpen] = useState(false);
   return (
     <div className="font-medium">
+      {/* <button
+        className="text-3xl text-[#000] text-end w-full"
+        onClick={() => setNavOpen(!navOpen)}
+      >
+        X
+      </button> */}
+
+      {/* {navOpen && (
+        <AnimatePresence>
+          <motion.ul
+            exit={{ y: "-100vh" }}
+            key="list"
+            variants={parentVariant}
+            initial="initial"
+            animate="animate"
+            className="fixed top-[5%] left-0 bg-[#000] text-[#fff] text-3xl w-full h-full flex flex-col items-center py-20 gap-10"
+          >
+            <motion.li
+            // variants={childVariant}
+            // initial="initial"
+            // animate="animate"
+            >
+              Home
+            </motion.li>
+            <motion.li
+            // variants={childVariant}
+            // initial="initial"
+            // animate="animate"
+            >
+              About
+            </motion.li>
+            <motion.li
+            // variants={childVariant}
+            // initial="initial"
+            // animate="animate"
+            >
+              Contact
+            </motion.li>
+            <motion.li
+            // variants={childVariant}
+            // initial="initial"
+            // animate="animate"
+            >
+              {" "}
+              Resume
+            </motion.li>
+          </motion.ul>
+        </AnimatePresence>
+      )} */}
       <Header />
       <Main />
       {/* <section className="bg-[#96897B] h-screen flex flex-col justify-center items-center text-5xl">
@@ -59,6 +124,7 @@ const Header = () => {
   return (
     <section className="header h-screen bg-[#151515] pt-5 px-2 flex flex-col items-start justify-center">
       {/* [#E6ACCC]  */}
+
       <p className="mb-10 text-2xl md:text-4xl md:text-center">{sallie}</p>
       <div>
         <h2 className="text-2xl md:text-3xl md:text-center">{text}</h2>
