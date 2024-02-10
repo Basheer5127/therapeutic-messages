@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import { useTypewriter } from "react-simple-typewriter";
 import { AnimatePresence, motion } from "framer-motion";
-import salmahOne from "../../assets/salmah1.jpeg";
-import salmahTwo from "../../assets/salmah2.jpeg";
+import salmahOne from "../../assets/ally2.jpg";
+import salmahTwo from "../../assets/ally1.jpg";
 const Romance = () => {
   const parentVariant = {
     initial: { y: "-100vh" },
@@ -100,18 +100,20 @@ const Header = () => {
   const [showScroll, setShowScroll] = useState(false);
   const [text] = useTypewriter({
     words: [
-      `The thoughts of you had me developing this till 3am last night😔. The way I feel is unexplainable. You’re giving me so much without even realizing. I love you more than anything in the world. Good morning my beautiful Sallie❤️`,
+      `The thoughts of you had me developing this till 3am last night😔. The way I feel is unexplainable. You’re giving me so much without even realizing. I love you more than anything in the world. Good morning my beautiful Ally❤️`,
     ],
     loop: 1,
     typeSpeed: 70,
     deleteSpeed: 50,
   });
   const [sallie] = useTypewriter({
-    words: ["My dear Sallie..."],
+    words: ["My Dear Ally❤,"],
     loop: 1,
     typeSpeed: 50,
     deleteSpeed: 50,
+    
   });
+ 
 
   const scrollVariants = {
     initial: { x: "100vw", opacity: 0 },
@@ -135,7 +137,7 @@ const Header = () => {
         initial="initial"
         animate="animate"
       >
-        Keep scrolling baby...
+        Keep scrolling my love💖...
       </motion.p>
     </section>
   );
@@ -148,7 +150,7 @@ const Main = () => {
   return (
     <motion.div
       className="header h-screen bg-[#201919] pt-5 px-2 flex flex-col items-center justify-center"
-      // variants={variants}
+      // variants={variants}3
       // initial="initial"
       // whileInView={{ opacity: 1, y: 0 }}
       // transition={{ duration: 0.5, type: "tween" }}
@@ -160,7 +162,7 @@ const Main = () => {
         whileInView={{ x: 0, opacity: 1 }}
         transition={{ duration: 1, delay: 0.5 }}
       >
-        I know it's a long day ahead and the thought of how it's gonna go is
+        I know it's a long day ahead together with your faculty stress and the thought of how it's gonna go is
         probably overwhelming right now.{" "}
       </motion.p>
       <motion.p
@@ -178,7 +180,7 @@ const Main = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 5 }}
       >
-        Scroll when ready baby
+        Scroll when ready my love
       </motion.p>
     </motion.div>
   );
@@ -200,7 +202,7 @@ const Suspense = () => {
 const Pictures = () => {
   return (
     <section className="bg-[#151515] py-10 ">
-      <div className="w-[90%] mx-auto flex flex-col md:flex-row gap-[50px]">
+      <div className="w-[85%] mx-auto flex flex-col md:flex-row gap-[50px]">
         <motion.img
           src={salmahOne}
           alt="Beautiful girl"
@@ -243,10 +245,10 @@ const Footer = () => {
         viewport={{ amount: 0.5, once: true }}
         transition={{ duration: 1, delay: 2 }}
       >
-        I hope the universe once again conspires in your favor and you have a
-        day just as lovely as you.
+        I  want you to know regardlessly of how things are I will always love you endlessly, do have a day just as lovely as you.
+        
       </motion.p>
-      <p className="text-2xl md:text-5xl md:text-center mt-10">I LOVE YOU💝</p>
+      <p className="text-2xl md:text-5xl md:text-center mt-10">I LOVE YOU ALLY💝</p>
     </section>
   );
 };
