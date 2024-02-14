@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import { useTypewriter } from "react-simple-typewriter";
 import { AnimatePresence, motion } from "framer-motion";
-import salmahOne from "../../assets/nat.jpg";
-import salmahTwo from "../../assets/hab.jpg";
+import salmahOne from "../../assets/NAT.jpg";
+import salmahTwo from "../../assets/HAB.jpg";
 const Romance = () => {
   const parentVariant = {
     initial: { y: "-100vh" },
