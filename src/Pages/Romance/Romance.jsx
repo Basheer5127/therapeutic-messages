@@ -246,7 +246,7 @@ const Footer = () => {
        I promise you I am not gonna fuck this up for real and  all I'm asking for is nothing but a chance, a chance to be you Mr Right, the one that understand your flaws and sins and find beauty in it. I'm not a joker and I've stopped all frivolities just for you to  be my girl.
         
       </motion.p>
-      <p className="text-2xl md:text-5xl md:text-center mt-10">WILL YOU BE MY BOYFRIEND?🙂</p>
+      <p className="text-2xl md:text-5xl md:text-center mt-10">CAN I BE MY BOYFRIEND?🙂</p>
     </section>
   );
 };
