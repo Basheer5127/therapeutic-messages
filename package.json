@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "express": "^4.18.2",
     "framer-motion": "^10.12.21",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -28,5 +29,10 @@
     "postcss": "^8.4.26",
     "tailwindcss": "^3.3.3",
     "vite": "^4.4.0"
-  }
+  },
+  "description": "A quick project to help brighten the mood of close friends amidst a shitty day. Built using React, TailwindCSS and Framer Motion",
+  "main": "postcss.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
