@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import { useTypewriter } from "react-simple-typewriter";
 import { AnimatePresence, motion } from "framer-motion";
-import salmahOne from "../../assets/NAT.jpg";
-import salmahTwo from "../../assets/HAB.jpg";
+import salmahOne from "../../assets/aliya.jpg";
+import salmahTwo from "../../assets/aliya2.jpg";
 const Romance = () => {
   const parentVariant = {
     initial: { y: "-100vh" },
@@ -100,14 +100,14 @@ const Header = () => {
   const [showScroll, setShowScroll] = useState(false);
   const [text] = useTypewriter({
     words: [
-      `So this is me being real about my feelings for you. Right from the very first time I set my eyes on you, without speaking I knew you were the one, not just cause you are attractive but because of the kind of person you are.`,
+      `The thoughts of you had me developing this till 3am last night😔. The way you make me feel is unexplainable. You're giving me so much without even realizing. I don't know if I'm in love or it's just a mixed emotion. Good morning my beautiful Aliyah❤️.`,
     ],
     loop: 1,
     typeSpeed: 70,
     deleteSpeed: 50,
   });
   const [sallie] = useTypewriter({
-    words: ["Hey Nathy,"],
+    words: ["My dear Aliyah,"],
     loop: 1,
     typeSpeed: 50,
     deleteSpeed: 50,
@@ -162,14 +162,14 @@ const Main = () => {
         whileInView={{ x: 0, opacity: 1 }}
         transition={{ duration: 1, delay: 0.5 }}
       >
-        I understand the fact that we are practicing different religions but I honestly don't care cause I feel we can make it work and left to me 'love is the best religion'.{" "}
+        I know it's a long day ahead together with your last exam for the semester and the thought of how it's gonna go is probably overwhelming right now'.{" "}
       <motion.p
         className="text-2xl md:text-5xl md:text-center mt-[100px]"
         initial={{ x: "100%", opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
         transition={{ duration: 1, delay: 3.5 }}
       >
-       So this is my val proposal for you, I wanna use this medium to ask you out, yeah and I'm an optimist, so negativity isn't my thing, even though it's left for you to decide.
+       So I thought, why not show you the most beautiful thing in the world to help brighten up your day?🤔
       </motion.p>
       </motion.p>
       <motion.p
@@ -234,7 +234,7 @@ const Footer = () => {
         viewport={{ amount: 0.5, once: true }}
         transition={{ duration: 1, delay: 2 }}
       >
-        I really hope that made you smile, baby?
+        I really hope that made you smile?
       </motion.p>
       <motion.p
         className="text-2xl md:text-5xl md:text-center"
@@ -243,10 +243,10 @@ const Footer = () => {
         viewport={{ amount: 0.5, once: true }}
         transition={{ duration: 1, delay: 2 }}
       >
-       I promise you I am not gonna fuck this up for real and  all I'm asking for is nothing but a chance, a chance to be you Mr Right, the one that understand your flaws and sins and find beauty in it. I'm not a joker and I've stopped all frivolities just for you to  be my girl.
+       I hope the universe once again conspires in your favor and you have a day just as lovely as you.
         
       </motion.p>
-      <p className="text-2xl md:text-5xl md:text-center mt-10">CAN I BE YOUR BOYFRIEND?🙂</p>
+      <p className="text-2xl md:text-5xl md:text-center mt-10">From your dear 'Adigun' to 'Adunni'😂</p>
     </section>
   );
 };
