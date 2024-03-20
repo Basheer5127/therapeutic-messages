@@ -100,7 +100,7 @@ const Header = () => {
   const [showScroll, setShowScroll] = useState(false);
   const [text] = useTypewriter({
     words: [
-      `The thoughts of you had me developing this till 3am last night😔. The way you make me feel is unexplainable. You're giving me so much without even realizing. I don't know if I'm in love or it's just a mixed emotion. Good morning my beautiful Aliyah❤️.`,
+      `The thoughts of you had me developing this till 3am last night😔. The way you make me feel is unexplainable. You're giving me so much without even realizing. Good morning Aliyah❤️.`,
     ],
     loop: 1,
     typeSpeed: 70,
