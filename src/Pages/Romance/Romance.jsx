@@ -107,7 +107,7 @@ const Header = () => {
     deleteSpeed: 50,
   });
   const [sallie] = useTypewriter({
-    words: ["My dear Aliyah,"],
+    words: ["My dear AWEKE😂,"],
     loop: 1,
     typeSpeed: 50,
     deleteSpeed: 50,
@@ -246,7 +246,7 @@ const Footer = () => {
        I hope the universe once again conspires in your favor and you have a day just as lovely as you.
         
       </motion.p>
-      <p className="text-2xl md:text-5xl md:text-center mt-10">From your dear 'Bashir' to his'Adunni'😂</p>
+      <p className="text-2xl md:text-5xl md:text-center mt-10">From your dear 'Bashir' to his 'Adunni'😂</p>
     </section>
   );
 };
