@@ -162,7 +162,7 @@ const Main = () => {
         whileInView={{ x: 0, opacity: 1 }}
         transition={{ duration: 1, delay: 0.5 }}
       >
-        I know it's a long day ahead together and the thought of how it's gonna go is probably overwhelming right now.{" "}
+        I know it's a long day ahead and the thought of how it's gonna go is probably overwhelming right now.{" "}
       <motion.p
         className="text-2xl md:text-5xl md:text-center mt-[100px]"
         initial={{ x: "100%", opacity: 0 }}
