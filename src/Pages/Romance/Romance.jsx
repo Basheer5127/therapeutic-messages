@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import { useTypewriter } from "react-simple-typewriter";
 import { AnimatePresence, motion } from "framer-motion";
-import salmahOne from "../../assets/aliya.jpg";
-import salmahTwo from "../../assets/aliya2.jpg";
+import salmahOne from "../../assets/aly.jpg";
+import salmahTwo from "../../assets/ally2.jpg";
 const Romance = () => {
   const parentVariant = {
     initial: { y: "-100vh" },
@@ -100,7 +100,7 @@ const Header = () => {
   const [showScroll, setShowScroll] = useState(false);
   const [text] = useTypewriter({
     words: [
-      `The thoughts of you had me developing this till 3am last night😔. The way you make me feel is unexplainable. You're giving me so much without even realizing. Good morning Aliyah❤️.`,
+      `The thoughts of you had me developing this till 3am last night😔. The way you make me feel is unexplainable. You're giving me so much without even realizing. Good morning💗.`,
     ],
     loop: 1,
     typeSpeed: 70,
@@ -162,7 +162,7 @@ const Main = () => {
         whileInView={{ x: 0, opacity: 1 }}
         transition={{ duration: 1, delay: 0.5 }}
       >
-        I know it's a long day ahead together with your last exam for the semester and the thought of how it's gonna go is probably overwhelming right now.{" "}
+        I know it's a long day ahead together and the thought of how it's gonna go is probably overwhelming right now.{" "}
       <motion.p
         className="text-2xl md:text-5xl md:text-center mt-[100px]"
         initial={{ x: "100%", opacity: 0 }}
@@ -246,7 +246,7 @@ const Footer = () => {
        I hope the universe once again conspires in your favor and you have a day just as lovely as you.
         
       </motion.p>
-      <p className="text-2xl md:text-5xl md:text-center mt-10">From your dear 'Adigun' to 'Adunni'😂</p>
+      <p className="text-2xl md:text-5xl md:text-center mt-10">From your dear 'Bashir' to his'Adunni'😂</p>
     </section>
   );
 };
