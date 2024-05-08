@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import { useTypewriter } from "react-simple-typewriter";
 import { AnimatePresence, motion } from "framer-motion";
 import salmahOne from "../../assets/aly.jpg";
-import salmahTwo from "../../assets/ally2.jpg";
+import salmahTwo from "../../assets/Ally2.jpg";
 const Romance = () => {
   const parentVariant = {
     initial: { y: "-100vh" },
