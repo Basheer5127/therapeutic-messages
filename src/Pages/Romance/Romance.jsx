@@ -246,7 +246,7 @@ const Footer = () => {
        I hope the universe once again conspires in your favor and you have a day just as lovely as you.
         
       </motion.p>
-      <p className="text-2xl md:text-5xl md:text-center mt-10">From your dear 'Bashir' to his 'Ajoke'. i love you baby💕</p>
+      <p className="text-2xl md:text-5xl md:text-center mt-10">From your dear 'Bashir' to his 'Ajoke'. I love you baby💕</p>
     </section>
   );
 };
