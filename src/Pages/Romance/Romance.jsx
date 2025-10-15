@@ -107,7 +107,7 @@ const Header = () => {
     deleteSpeed: 50,
   });
   const [sallie] = useTypewriter({
-    words: ["My dear AWEKE😂,"],
+    words: ["My dear Ayomide❤️,"],
     loop: 1,
     typeSpeed: 50,
     deleteSpeed: 50,
@@ -169,7 +169,7 @@ const Main = () => {
         whileInView={{ x: 0, opacity: 1 }}
         transition={{ duration: 1, delay: 3.5 }}
       >
-       So I thought, why not show you the most beautiful thing in the world to help brighten up your day?🤔
+       So I thought, why not show you the most beautiful being in the world to help brighten up your day?🤔
       </motion.p>
       </motion.p>
       <motion.p
@@ -178,7 +178,7 @@ const Main = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 5 }}
       >
-        Scroll when ready💗
+        Scroll when ready babe💗
       </motion.p>
     </motion.div>
   );
@@ -246,7 +246,7 @@ const Footer = () => {
        I hope the universe once again conspires in your favor and you have a day just as lovely as you.
         
       </motion.p>
-      <p className="text-2xl md:text-5xl md:text-center mt-10">From your dear 'Bashir' to his 'Adunni'😂</p>
+      <p className="text-2xl md:text-5xl md:text-center mt-10">From your dear 'Bashir' to his 'Ajoke'. i love you baby💕</p>
     </section>
   );
 };
