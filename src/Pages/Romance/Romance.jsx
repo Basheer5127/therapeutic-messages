@@ -100,7 +100,7 @@ const Header = () => {
   const [showScroll, setShowScroll] = useState(false);
   const [text] = useTypewriter({
     words: [
-      `The thoughts of you had me developing this till 3am last night😔. The way you make me feel is unexplainable. You're giving me so much without even realizing. Good morning💗.`,
+      `The thought of you had me developing this till 3am last night😔. The way you make me feel is unexplainable. You're giving me so much without even realizing. Good morning💗.`,
     ],
     loop: 1,
     typeSpeed: 70,
@@ -246,7 +246,7 @@ const Footer = () => {
        I hope the universe once again conspires in your favor and you have a day just as lovely as you.
         
       </motion.p>
-      <p className="text-2xl md:text-5xl md:text-center mt-10">From your dear 'Bashir' to his 'Ajoke'. I love you baby💕</p>
+      <p className="text-2xl md:text-5xl md:text-center mt-10">From your dear 'Kolawole' to his 'Ajoke'. I love you baby💕</p>
     </section>
   );
 };
