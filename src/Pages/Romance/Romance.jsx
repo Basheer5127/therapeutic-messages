@@ -107,7 +107,7 @@ const Header = () => {
     deleteSpeed: 50,
   });
   const [sallie] = useTypewriter({
-    words: ["My dear Ayomide❤️,"],
+    words: ["My dear Ashabi❤️,"],
     loop: 1,
     typeSpeed: 50,
     deleteSpeed: 50,
@@ -162,14 +162,14 @@ const Main = () => {
         whileInView={{ x: 0, opacity: 1 }}
         transition={{ duration: 1, delay: 0.5 }}
       >
-        I know it's a long day ahead and the thought of how it's gonna go is probably overwhelming right now.{" "}
+        I know there are lots of things in your mind which feels overwelming right now.{" "}
       <motion.p
         className="text-2xl md:text-5xl md:text-center mt-[100px]"
         initial={{ x: "100%", opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
         transition={{ duration: 1, delay: 3.5 }}
       >
-       So I thought, why not show you the most beautiful being in the world to help brighten up your day?🤔
+       So I thought, why not show you the most beautiful being in the world to help brighten up your mood?🤔
       </motion.p>
       </motion.p>
       <motion.p
@@ -234,7 +234,7 @@ const Footer = () => {
         viewport={{ amount: 0.5, once: true }}
         transition={{ duration: 1, delay: 2 }}
       >
-        I really hope that made you smile?
+        I really hope that made you smile?🥺
       </motion.p>
       <motion.p
         className="text-2xl md:text-5xl md:text-center"
@@ -246,7 +246,7 @@ const Footer = () => {
        I hope the universe once again conspires in your favor and you have a day just as lovely as you.
         
       </motion.p>
-      <p className="text-2xl md:text-5xl md:text-center mt-10">From your dear 'Kolawole' to his 'Ajoke'. I love you baby💕</p>
+      <p className="text-2xl md:text-5xl md:text-center mt-10">From your dear 'Adisa' to his 'Ashabi'. I love you baby💕</p>
     </section>
   );
 };
